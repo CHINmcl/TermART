@@ -48,6 +48,28 @@ from TermART import *
 print(fs("Bold") + "Hi") # Set Bold style
 # Options Bold , Underline , Reversed and Italic
 ```
+## Update v0.1.0
+### 5. Draw (draw)
+```python
+rom TermARTdeving import *
 
+print(draw(text="TermART",font="3d-ascii"))
+# Set text and font
+'''
+ _________  _______   ________  _____ ______   ________  ________  _________   
+|\___   ___\\  ___ \ |\   __  \|\   _ \  _   \|\   __  \|\   __  \|\___   ___\
+\|___ \  \_\ \   __/|\ \  \|\  \ \  \\\__\ \  \ \  \|\  \ \  \|\  \|___ \  \_|
+     \ \  \ \ \  \_|/_\ \   _  _\ \  \\|__| \  \ \   __  \ \   _  _\   \ \  \
+      \ \  \ \ \  \_|\ \ \  \\  \\ \  \    \ \  \ \  \ \  \ \  \\  \|   \ \  \
+       \ \__\ \ \_______\ \__\\ _\\ \__\    \ \__\ \__\ \__\ \__\\ _\    \ \__\
+        \|__|  \|_______|\|__|\|__|\|__|     \|__|\|__|\|__|\|__|\|__|    \|__|
+'''
+```
+### 6. Draw helper (draw_help)
+Show you all font
+```python
+from TermART import *
 
-
+print(draw_help(0.5,"EXEMPLE"))
+#set delay 0.5 sec and text "EXEMPLE"
+```
